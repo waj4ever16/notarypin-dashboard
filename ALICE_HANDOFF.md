@@ -28,13 +28,15 @@ Your job: Set up the automated data pulls on Bob's VPS.
 
 ## Credentials (Keep Secure)
 
-These go in Bob's VPS environment. William has these:
+⚠️ **DO NOT COMMIT SECRETS TO THIS REPO**
+
+These go in Bob's VPS environment variables only. Get from William:
 
 - **SUPABASE_URL:** `https://knwtzxgfbqmfiexogeuz.supabase.co`
-- **SUPABASE_KEY (Service Role):** `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtud3R6eGdmYnFtZmlleG9nZXV6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3OTY1MDUyNywiZXhwIjoyMDk1MjI2NTI3fQ.3E6YLntU96tcOjfJs2Vfyvm69GJrYIfhIC6iJZfOQXA`
-- **GHL_API_KEY:** (get from Jonathan/Arturo)
-- **GHL_LOCATION_ID:** (get from Jonathan/Arturo)
-- **TRANSACTION_LOG_PATH:** (wherever William stores the Excel file, e.g., `/root/.openclaw/workspace/transaction_log.xlsx`)
+- **SUPABASE_KEY (Service Role):** Ask William (ask for the NEW rotated key, not old one)
+- **GHL_API_KEY:** Ask Jonathan/Arturo
+- **GHL_LOCATION_ID:** Ask Jonathan/Arturo
+- **TRANSACTION_LOG_PATH:** Ask William (e.g., `/root/.openclaw/workspace/transaction_log.xlsx`)
 
 ---
 
